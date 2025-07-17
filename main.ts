@@ -1,3 +1,10 @@
+basic.showLeds(`
+    # # # # #
+    # . # . #
+    # # # # #
+    # # . # #
+    # # # # #
+    `)
 for (let index = 0; index < 2; index++) {
     music.play(music.tonePlayable(523, music.beat(BeatFraction.Quarter)), music.PlaybackMode.UntilDone)
     music.rest(music.beat(BeatFraction.Eighth))
@@ -10,28 +17,30 @@ for (let index = 0; index < 2; index++) {
     music.play(music.tonePlayable(523, music.beat(BeatFraction.Whole)), music.PlaybackMode.UntilDone)
     music.rest(music.beat(BeatFraction.Whole))
 }
-music.play(music.tonePlayable(698, music.beat(BeatFraction.Whole)), music.PlaybackMode.UntilDone)
-music.rest(music.beat(BeatFraction.Eighth))
-music.play(music.tonePlayable(698, music.beat(BeatFraction.Quarter)), music.PlaybackMode.UntilDone)
-music.rest(music.beat(BeatFraction.Eighth))
-music.play(music.tonePlayable(622, music.beat(BeatFraction.Quarter)), music.PlaybackMode.UntilDone)
-music.rest(music.beat(BeatFraction.Eighth))
-music.play(music.tonePlayable(698, music.beat(BeatFraction.Quarter)), music.PlaybackMode.UntilDone)
-music.rest(music.beat(BeatFraction.Eighth))
-music.play(music.tonePlayable(622, music.beat(BeatFraction.Quarter)), music.PlaybackMode.UntilDone)
-music.rest(music.beat(BeatFraction.Eighth))
-music.play(music.tonePlayable(523, music.beat(BeatFraction.Quarter)), music.PlaybackMode.UntilDone)
-music.rest(music.beat(BeatFraction.Eighth))
-music.play(music.tonePlayable(523, music.beat(BeatFraction.Quarter)), music.PlaybackMode.UntilDone)
-music.rest(music.beat(BeatFraction.Eighth))
-music.play(music.tonePlayable(523, music.beat(BeatFraction.Quarter)), music.PlaybackMode.UntilDone)
-music.rest(music.beat(BeatFraction.Eighth))
-music.play(music.tonePlayable(523, music.beat(BeatFraction.Quarter)), music.PlaybackMode.UntilDone)
-music.rest(music.beat(BeatFraction.Eighth))
-music.play(music.tonePlayable(523, music.beat(BeatFraction.Quarter)), music.PlaybackMode.UntilDone)
-music.rest(music.beat(BeatFraction.Eighth))
-music.play(music.tonePlayable(622, music.beat(BeatFraction.Whole)), music.PlaybackMode.UntilDone)
-music.rest(music.beat(BeatFraction.Whole))
+for (let index = 0; index < 2; index++) {
+    music.play(music.tonePlayable(698, music.beat(BeatFraction.Whole)), music.PlaybackMode.UntilDone)
+    music.rest(music.beat(BeatFraction.Eighth))
+    music.play(music.tonePlayable(698, music.beat(BeatFraction.Quarter)), music.PlaybackMode.UntilDone)
+    music.rest(music.beat(BeatFraction.Eighth))
+    music.play(music.tonePlayable(622, music.beat(BeatFraction.Quarter)), music.PlaybackMode.UntilDone)
+    music.rest(music.beat(BeatFraction.Eighth))
+    music.play(music.tonePlayable(698, music.beat(BeatFraction.Quarter)), music.PlaybackMode.UntilDone)
+    music.rest(music.beat(BeatFraction.Eighth))
+    music.play(music.tonePlayable(622, music.beat(BeatFraction.Quarter)), music.PlaybackMode.UntilDone)
+    music.rest(music.beat(BeatFraction.Eighth))
+    music.play(music.tonePlayable(523, music.beat(BeatFraction.Quarter)), music.PlaybackMode.UntilDone)
+    music.rest(music.beat(BeatFraction.Eighth))
+    music.play(music.tonePlayable(523, music.beat(BeatFraction.Quarter)), music.PlaybackMode.UntilDone)
+    music.rest(music.beat(BeatFraction.Eighth))
+    music.play(music.tonePlayable(523, music.beat(BeatFraction.Quarter)), music.PlaybackMode.UntilDone)
+    music.rest(music.beat(BeatFraction.Eighth))
+    music.play(music.tonePlayable(523, music.beat(BeatFraction.Quarter)), music.PlaybackMode.UntilDone)
+    music.rest(music.beat(BeatFraction.Eighth))
+    music.play(music.tonePlayable(523, music.beat(BeatFraction.Quarter)), music.PlaybackMode.UntilDone)
+    music.rest(music.beat(BeatFraction.Eighth))
+    music.play(music.tonePlayable(622, music.beat(BeatFraction.Whole)), music.PlaybackMode.UntilDone)
+    music.rest(music.beat(BeatFraction.Whole))
+}
 music.play(music.tonePlayable(698, music.beat(BeatFraction.Whole)), music.PlaybackMode.UntilDone)
 music.rest(music.beat(BeatFraction.Eighth))
 music.play(music.tonePlayable(698, music.beat(BeatFraction.Quarter)), music.PlaybackMode.UntilDone)
